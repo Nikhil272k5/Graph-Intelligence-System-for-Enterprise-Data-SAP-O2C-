@@ -92,3 +92,20 @@ The networking layer utilizing Vite Environment hooks (`import.meta.env.VITE_API
 ## 🌎 Deployment Status
 1. **Frontend**: The React application runs flawlessly on **Vercel** configured via the injected `$VITE_API_URL`.
 2. **Backend**: The autonomous FastAPI agent engine is hosted on **Render**, locked securely against a defined `3.11.0` `.python-version` runtime build template.
+
+---
+
+## 💻 How to Run Locally
+
+To spin up the Graph Intelligence Engine on your local machine:
+
+```bash
+# Backend (otc-graph/backend/)
+# Install dependencies: pip install -r requirements.txt
+python -m uvicorn main:app --host 0.0.0.0 --port 8000
+
+# Frontend (otc-graph/frontend/)
+# Install packages: npm install
+npm run dev
+```
+*Frontend will typically map perfectly to `http://localhost:5173`.*

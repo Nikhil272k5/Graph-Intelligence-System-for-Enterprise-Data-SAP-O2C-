@@ -7,6 +7,13 @@ Beyond just visualizing data, the system features a **Conversational NLP Agent**
 
 The project is split into two tightly coupled layers: a high-performance **Python/FastAPI Backend** and a highly aesthetic **React/Cytoscape.js Frontend** featuring a dual-theme UI (Light Mode & Immersive 3D Space Mode).
 
+## 📂 Repository Structure
+- `/frontend/src`: Contains all React UI components (`GraphView.jsx`, `ChatPanel.jsx`), state management, and Vite configurations.
+- `/backend`: Contains the FastAPI engine, SQLite data ingestion scripts, and the dynamic LLM SQL translation agents.
+- `/sessions`: Contains the raw AI pair-programming session logs, implementation plans, and architectural design artifacts generated during the build process.
+- `/docs/media`: Contains all high-resolution screenshots and video recordings of the intelligent web application.
+- `README.md`: This comprehensive document detailing architecture, UI interactions, and setup scripts.
+
 ## 🚀 Live Demo Recording
 ![Animation Demo](./docs/media/otc_light_mode_ui_1774253736396.webp)
 
